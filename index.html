@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
+    
 <body>
     <section class="header">
         <nav>
@@ -22,6 +23,7 @@
                     <li><a href="">FAQ</a></li>
                     <li><a href="">TEAM</a></li>
                     <li><a href="">CONTACT</a></li>
+                    <li><a href="privacy.html">PRIVACY POLICY</a></li>
                 </ul>
             </div>
             <i class="fa-light fa-bars" onclick="showMenu()"></i>
@@ -68,6 +70,18 @@
 <section class="testimonials">
     <h1>Feedback From Users</h1>
     <p1>Why Koob works</p1>
+
+    <div class="row">
+        <div class="testimonials-col">
+            <h3>2x more lookups</h3>
+        </div>
+        <div class="testimonials-col">
+            <h3>98% “helped”</h3>
+        </div>
+        <div class="testimonials-col">
+            <h3>51% “helped a lot”</h3>
+        </div>
+    </div>
 </section>
 
 <!--------JavaScript for Toggle Menu------->
@@ -76,10 +90,20 @@
         function showMenu(){
             navLinks.style.right = "0";
         }
-        function showMenu(){
+        function hideMenu(){
             navLinks.style.right = "-200px";
         }
     </script>
-</body>
 
+    <footer>
+    <!-- <div class="footer-content">
+        <h3>code opacity</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+    </div> -->
+    <div class="footer-bottom">
+        <p>Copyright &copy;2023 Koob. All Rights Reserved</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+    </footer>
+</body>
 </html>
